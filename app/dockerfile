@@ -1,4 +1,3 @@
 FROM  php:apache
 RUN apt update -y \
-&& apt install -y libonig-dev libzip-dev unzip\
 && docker-php-ext-install pdo_mysql
